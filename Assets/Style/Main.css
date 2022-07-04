@@ -57,18 +57,22 @@ body {
     font-family: 'Kaushan Script', cursive;
     text-align: center;
 }
+
+
+
 .opis {
-    margin: 0 auto;
+    top: -30%;
+    margin: auto;
     text-align: start;
 }
 .naturehh, .poiuseshh, .friendhh {
     text-transform: uppercase;
     font-size: 30px;
-    line-height: 0.5;
+    line-height: 0.2;
     text-align: start;
     margin-left: -20%;
 }
-.natureh, .poiusesh, .friendh {
+.nature, .poiuses, .frend {
     text-align: start;
     margin-left: -20%;
 }
