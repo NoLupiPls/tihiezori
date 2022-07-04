@@ -24,7 +24,7 @@ body {
     height: 100vh;
     margin: 0;
     
-    background: url(../Images/scale_1200.png) center no-repeat;
+    background: url(../Images/Background/scale_1200.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
