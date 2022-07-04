@@ -5,6 +5,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     color: aliceblue;
+    cursor: default;
 }
 
 *,
@@ -26,33 +27,62 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+
+
 /*   BOX   */
-.box {
-    overflow: hidden;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    border: 1px solid rgba(0, 0, 0, 0.466);
-    width: 50%;
-    padding: 80px 0;
-    cursor: move;
-    box-sizing: border-box;
-}
-.box:before {
-    content: "";
-    background-image: url("../Images/Background/scale_1200.png");
+.blurred-bg {
+    background-image: url("../Images/Background/scale_1200\ —\ копия.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: absolute;
-    width: 110%;
-    height: 110%;
-    top: -5%;
-    left: -5%;
-    z-index: 1;
-    -webkit-filter: blur(8px);
-    filter: blur(8px);
 }
+  
+.box {
+    width: 900px;
+    height: 270px;
+    cursor: default;
+    left: calc( 25% - 250px );
+    top: 325px;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    text-align: left;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.box:active {
+    cursor: default;
+}
+/*.box .content {
+    margin: auto;
+}*/
+a, p {
+    color: white;
+    font-weight: 100;
+    text-align: left;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    text-transform: uppercase;
+}
+  .tinted h1, .tinted h2, .tinted a, .tinted p {
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+h2 {
+    font-size: 14px;
+}
+p {
+    margin: 0 25px;
+    font-size: 25px;
+}
+
+
+
 
 
 /*   INTRO   */
@@ -77,6 +107,7 @@ h1, h2, h3, h4, h5, h6 {
 .intro__title {
     font-size: 70px;
     font-weight: 700;
+    margin-top: -24%;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
@@ -97,6 +128,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Kaushan Script', cursive;
     text-align: center;
 }
+
+
+
+
+
 
 
 /*   HEADER   */
@@ -163,5 +199,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav__link.active {
     color: #fce38a;
+    cursor: default;
 }
 
