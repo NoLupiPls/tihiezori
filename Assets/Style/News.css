@@ -27,9 +27,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
-
-
 /*   BOX   */
 .blurred-bg {
     background-image: url("../Images/Background/scale_1200\ —\ копия.png");
@@ -37,7 +34,6 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     background-attachment: fixed;
 }
-  
 .box {
     width: 900px;
     height: 270px;
@@ -82,9 +78,6 @@ p {
 }
 
 
-
-
-
 /*   INTRO   */
 .intro {
     display: flex;
@@ -122,17 +115,12 @@ p {
     margin: 60px auto;
     background-color: #fff;
 }
-.intro__suptitle {
-    font-size: 64px;
-    color: #fff;
-    font-family: 'Kaushan Script', cursive;
-    text-align: center;
+.Data {
+    font-size: 21px;
+    text-transform: lowercase;
+    color: rgba(245, 245, 245, 0.644);
+    text-decoration: none;
 }
-
-
-
-
-
 
 
 /*   HEADER   */
@@ -146,7 +134,6 @@ p {
     z-index: 1000;
     text-decoration: none;
 }
-
 .header__inner {
     display: flex;
     justify-content: space-between;
