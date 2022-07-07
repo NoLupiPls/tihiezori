@@ -1,7 +1,6 @@
 body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-
     font-size: 15px;
     line-height: 1.6;
     color: aliceblue;
@@ -27,7 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /*   INTRO   */
 .intro {
     display: flex;
@@ -37,7 +35,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     margin-top: -24px;
     position: absolute;
-
     background: url(../Images/Background/scale_1200.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -64,6 +61,27 @@ h1, h2, h3, h4, h5, h6 {
     height: 3px;
     margin: 60px auto;
     background-color: #fff;
+}
+.opis {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: -300px;
+}
+.list__doc {
+    margin-left: -5%;
+}
+.link__doc {
+    text-decoration: none;
+    color: #fff;
+    transition: color .1s linear;
+}
+.link__doc::after {
+    color: coral;
+}
+.link__doc:hover {
+    color: #fdde6c;
+    transition: color .1s linear;
 }
 
 
@@ -101,10 +119,8 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: top;
     margin: 0 15px;
     position: relative;
-    
     color: #fff;
     text-decoration: none;
-    
     transition: color .2s linear;
 }
 .nav__link:after {
@@ -113,7 +129,6 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 3px;
     opacity: 0;
-    
     background-color: #fce38a;
     position: absolute;
     top: 100%;
