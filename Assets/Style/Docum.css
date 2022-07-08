@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 100vh;
     margin-top: -24px;
-    position: absolute;
+    position: fixed;
     background: url(../Images/Background/scale_1200.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
@@ -53,6 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     line-height: 1;
     text-decoration: none;
+    margin-top: 10%;
 }
 .intro__title:after {
     content: "";
@@ -66,14 +67,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 30px;
     text-align: center;
     color: #fff;
-    margin-top: -300px;
+    margin-top: 0%;
 }
 .list__doc {
     margin-left: -5%;
+    /*padding-top: -30%;*/
 }
 .link__doc {
     text-decoration: none;
     color: #fff;
+    padding-top: -10%;
     transition: color .1s linear;
 }
 .link__doc::after {
@@ -82,6 +85,12 @@ h1, h2, h3, h4, h5, h6 {
 .link__doc:hover {
     color: #fdde6c;
     transition: color .1s linear;
+}
+.zagolovok {
+    margin-top: 0%;
+    position: relative;
+    text-align: center;
+    display: flex;
 }
 
 
