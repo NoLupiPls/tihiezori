@@ -19,6 +19,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/*   SCROLLBAR   */
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background: #fdde6c;
+}
+
+
 /*   CONTAINER   */
 .container {
     width: 100%;
@@ -27,19 +39,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+/*   PROST   */
+.prost {
+    display: flex;
+    block-size: auto;
+    display: inline;
+}
+
 /*   BOX   */
 .blurred-bg {
     background-image: url("../Images/Background/scale_1200\ —\ копия.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    position: absolute;
 }
 .box {
     width: 900px;
     height: 270px;
     cursor: default;
     left: calc( 25% - 250px );
-    top: 325px;
+    top: 50%;
     position: absolute;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.3);
@@ -90,6 +110,7 @@ p {
     background: url(../Images/Background/scale_1200.png) center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    z-index: 1;
 }
 .intro__inner {
     width: 100%;
@@ -98,14 +119,16 @@ p {
     text-align: center;
 }
 .intro__title {
-    font-size: 87px;
+    font-size: 70px;
     font-weight: 700;
-    margin-top: -30%;
     text-transform: uppercase;
     text-align: center;
     color: #fff;
     line-height: 1;
     text-decoration: none;
+    margin-top: 10%;
+    z-index: 3;
+    margin: 10% auto 0;
 }
 .intro__title:after {
     content: "";
